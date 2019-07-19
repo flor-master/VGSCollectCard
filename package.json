@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.4"
+    "react-native": "0.60.4",
+    "react-native-awesome-card-io": "^0.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
