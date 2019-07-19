@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react'
 import { TouchableOpacity, Text, Platform } from 'react-native'
-import { CardIOModule } from 'react-native-awesome-card-io'
+import { CardIOModule, CardIOUtilities } from 'react-native-awesome-card-io'
 
 export default function VGSCollectCard(props) {
   const [rawCard, setRawCard] = useState(null)
 
-  // useEffect(() => {
-  //   return () => {
-  //     if (Platform.OS === 'ios') {
-  //       CardIOUtilities.preload()
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+    return () => {
+      if (Platform.OS === 'ios') {
+        CardIOUtilities.preload()
+      }
+    }
+  }, []);
   
   const scanCard = () => {
     const config = {
