@@ -2,6 +2,10 @@
   "name": "VGSCollectCard",
   "version": "0.0.1",
   "private": true,
+  "description": "",
+  "license": "MIT",
+  "homepage": "https://verygoodsecurity.com",
+  "author": "VGS",
   "scripts": {
     "start": "react-native start",
     "test": "jest",
